@@ -19,8 +19,8 @@ sim_3 = text_emb @ multi_emb_1.T
 sim_4 = multi_emb_1 @ multi_emb_2.T
 
 print("=== 相似度计算结果 ===")
-print(f"纯图像 vs 纯图像: {sim_1}")
-print(f"图文结合1 vs 纯图像: {sim_2}")
+print(f"图像1 vs 图像2: {sim_1}")
+print(f"图文结合1 vs 纯图像1: {sim_2}")
 print(f"图文结合1 vs 纯文本: {sim_3}")
 print(f"图文结合1 vs 图文结合2: {sim_4}")
 
